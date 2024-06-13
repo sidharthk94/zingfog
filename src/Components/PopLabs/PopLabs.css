@@ -1,0 +1,202 @@
+.pop_heading {
+  color: #505050;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.first_logo_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second_row,
+.third_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third_row {
+  gap: 50px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.third {
+  justify-content: start;
+}
+.fourth {
+  width: 40%;
+}
+.fifth {
+  width: 40%;
+}
+.pop_icons_main {
+  padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .first_logo_row,
+  .second_row,
+  .third_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap:10px;
+    margin-top: 10px;
+  }
+  .third_row {
+    gap: 10px;
+  }
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth,
+  .sixth {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .care_logo,
+  .garuda_logo,
+  .cpc_logo,
+  .immucare_logo,
+  .aza_logo,
+  .jeeva_logo,
+  .ddrc_logo,
+  .hygea_logo,
+  .aswini_logo,
+  .metro_logo,
+  .poly_logo,
+  .rcell_logo,
+  .neuberg_logo,
+  .lakshmi_loho,
+  .starcare_logo,
+  .mims_logo,
+  .aayush_logo,
+  .bmh_logo,
+  .iqra_logo,
+  .vivid_logo {
+    height: 30px;
+    width: 30px;
+  }
+  .dane_logo,
+  .fathima_logo,
+  .daya_logo,
+  .calicut_logo,
+  .lalpath_logo,
+  .vithayathi_logo,
+  .microbio_logo,
+  .microhlth_logo,
+  .tyo_logo {
+    height: 20px;
+    width: 70px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+    .first_logo_row,
+    .second_row,
+    .third_row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      gap:10px;
+      margin-top: 10px;
+    }
+    .third_row {
+      gap: 10px;
+    }
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth,
+    .sixth {
+      width: 100%;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .care_logo,
+    .garuda_logo,
+    .cpc_logo,
+    .immucare_logo,
+    .aza_logo,
+    .jeeva_logo,
+    .ddrc_logo,
+    .hygea_logo,
+    .aswini_logo,
+    .metro_logo,
+    .poly_logo,
+    .rcell_logo,
+    .neuberg_logo,
+    .lakshmi_loho,
+    .starcare_logo,
+    .mims_logo,
+    .aayush_logo,
+    .bmh_logo,
+    .iqra_logo,
+    .vivid_logo {
+        height: 20px;
+        width: 70px;
+    }
+    .dane_logo,
+    .fathima_logo,
+    .daya_logo,
+    .calicut_logo,
+    .lalpath_logo,
+    .vithayathi_logo,
+    .microbio_logo,
+    .microhlth_logo,
+    .tyo_logo {
+      height: 20px;
+      width: 70px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .first_logo_row,
+    .second_row,
+    .third_row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      gap:10px;
+      margin-top: 10px;
+    }
+    .third_row {
+      gap: 10px;
+    }
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth,
+    .sixth {
+      width: 100%;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }

@@ -1,0 +1,174 @@
+.dashbord_main {
+}
+.dasgboard_nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.dashboard_nav_icon {
+  width: 80px;
+  height: 40px;
+}
+.nav_right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.apply_filter {
+  height: 20px;
+  width: 130px;
+  background-color: #1f6cab;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.filter_text {
+  font-size: 14px;
+  color: #ffffff;
+}
+.filter_image {
+  height: 12px;
+  width: 12px;
+}
+.filter_search {
+  height: 20px;
+  width: 250px;
+  border: solid 1px #1f6cab;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.filter_input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.search_icon {
+  height: 12px;
+  width: 12px;
+}
+.filter_and_search {
+  display: flex;
+  gap: 15px;
+}
+.dashboard_content {
+  background-color: #e4fbfb;
+}
+.dashboard_content_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.from_date,
+.patient_name,
+.bill_no,
+.todate,
+.hospital_id,
+.referby,
+.status {
+  display: flex;
+  align-items: center;
+}
+.from_text,
+.patient_text,
+.bill_text,
+.toate_text,
+.hospital_id_text,
+.status_text,
+.referby_text {
+  width: 100px;
+  font-size: 12px;
+}
+.dashboard_middle_filters {
+  display: flex;
+  justify-content: space-evenly;
+}
+.dashboard_middile_search,
+.clear {
+  height: 20px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: transparent;
+  border-radius: 2px;
+  color: white;
+}
+.dashboard_middile_search{
+ background-color: #1F6CAB;
+ 
+}
+.clear{
+    background-color: #F46C09;
+    
+}
+.middile_search_icon,
+.clear_icon {
+  height: 12px;
+  width: 12px;
+}
+.search_and_clear_main{
+    display: flex;
+    justify-content:space-between;
+   padding: 10px;
+}
+.search_and_clear{
+    display: flex;
+    gap: 10px;
+}
+.serac_text{
+    font-size: 13px;
+    color: #9E9A9A;
+}
+.middile_search_text,.clear_text{
+    font-size: 12px;
+}
+.row_heading{
+    text-align: left;
+}
+.row_details{
+    font-size: 14px;
+    text-align: left;
+}
+.order_no{
+    width: 5%;
+}
+.date{
+    width: 7%;
+}
+.patient_namez{
+    width: 15%;
+}
+.hospital_idz{
+    width: 15%;
+}
+.test_name{
+    width: 20%;
+}
+.doctor_nme{
+    width: 15%;
+}
+.eta{
+    width: 8%;
+}
+.statuz{
+    width: 10%;
+}
+.actinz{
+    width: 5%;
+}
+.row_heading{
+    font-size: 13px;
+}
+.table{
+    margin-top: 20px;
+}

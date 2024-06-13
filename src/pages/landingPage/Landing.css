@@ -1,0 +1,86 @@
+.nav_log {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo,
+.logo_image {
+  width: 100px;
+  height: 40px;
+}
+.nav_items {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+  color: gray;
+  cursor: pointer;
+}
+.nav_section {
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 20px;
+}
+
+.login_section {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  align-items: center;
+}
+
+.login {
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+  color: gray;
+  
+}
+.link{
+  text-decoration: none;
+}
+.login_icon {
+  width: 25px;
+  height: 25px;;
+}
+.advt{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+}
+
+.hamburger_main{
+  position: absolute;
+  height: 100vh;
+  width: 70vw;
+  background-color: #EFF8FF;
+  z-index: 1;
+  color: #808080;
+  left: 0;
+  top: 0;
+}
+.ham_navitems{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.ham_close{
+  display: flex;
+  justify-content: end;
+  font-size: 30px;
+}
+.hamburger_icon{
+  display: none;
+}
+
+@media screen and (max-width: 768px){
+  .hamburger_icon{
+    display: block;
+  }
+  .nav_items{
+    display: none;
+  }
+}
